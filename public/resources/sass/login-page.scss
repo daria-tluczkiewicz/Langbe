@@ -1,0 +1,61 @@
+.login-page {
+    font-size: 16px;
+    h1 {
+        font-size: 24px;
+    }
+
+    .nav-items-container {
+       display: flex;
+       flex-direction: row;
+       gap: 20px
+       
+    }
+
+    .nav-item, .nav-item a {
+        text-decoration: none;
+        color: white;
+        gap: 10px;
+        align-items: center;
+    }
+    .card {
+        padding: 50px;
+        color:rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .card-body form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        input:not([type='checkbox']) {
+            font-family: 'Roboto' !important;
+            outline: none;
+            height: 44px;
+            width: 100%;
+            padding: 10px 22px;
+            border-radius: 22px;
+            box-sizing: border-box;
+            border: 2px solid gray;
+        }
+        .row.buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .button {
+                width: 100%;
+                border: none;
+                outline: none;
+                position: unset;
+            }
+            a.forgot {
+                text-decoration: none;
+                color: black
+            }
+        }
+    }
+
+}
